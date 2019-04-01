@@ -29,7 +29,7 @@ class Home extends StatelessWidget{
             padding: EdgeInsets.only(bottom: 6),
             child: Text(
               'Your daily bible assistant', 
-              style: TextStyle(color: Colors.grey.shade400, fontSize: 16, fontWeight: FontWeight.w300),
+              style: TextStyle(color: Colors.grey.shade600, fontSize: 16, fontWeight: FontWeight.w300),
             ),
           ),
           preferredSize: null,
@@ -38,7 +38,7 @@ class Home extends StatelessWidget{
         backgroundColor: Colors.white
       ),
       backgroundColor: Colors.white,
-      body: BookList()
+      body: BookList(context)
     );
   }
 }

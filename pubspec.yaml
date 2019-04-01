@@ -38,27 +38,10 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/invision.gif
-    - assets/basement.png
-    - assets/bible-icons/1-chronicles-free-bible-icon.png
-    - assets/bible-icons/1-kings-free-bible-icon.png
-    - assets/bible-icons/1-samuel-free-bible-icon.png
-    - assets/bible-icons/2-chronicles-free-bible-icon.png
-    - assets/bible-icons/2-kings-free-bible-icon.png
-    - assets/bible-icons/2-samuel-free-bible-icon.png
-    - assets/bible-icons/deuteronomy-free-bible-icon.png
-    - assets/bible-icons/exodus-free-bible-icon.png
-    - assets/bible-icons/ezra-free-bible-icon.png
-    - assets/bible-icons/genesis-free-bible-icon.png
-    - assets/bible-icons/joshua-free-bible-icon.png
-    - assets/bible-icons/judges-free-bible-icon.png
-    - assets/bible-icons/leviticus-free-bible-icon.png
-    - assets/bible-icons/nehemiah-free-bible-icon.png
-    - assets/bible-icons/numbers-free-bible-icon.png
-    - assets/bible-icons/ruth-free-bible-icon.png
-
     - assets/books-list.json
     - assets/books.json
+    - assets/bible-icons/
+    - assets/bible-books/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
