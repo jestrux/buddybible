@@ -38,7 +38,7 @@ class Home extends StatelessWidget{
         backgroundColor: Colors.white
       ),
       backgroundColor: Colors.white,
-      body: BookList(context)
+      body: BookList()
     );
   }
 }

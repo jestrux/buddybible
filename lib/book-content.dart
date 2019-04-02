@@ -47,12 +47,6 @@ class BookContentState extends State<BookContent>{
             )
           ).toList(),
         );
-
-        // return Column(children: <Widget>[
-        //   snapshot.data.map<Widget>((chapter) => 
-            
-        //   ).toList()
-        // ]);
       },
     );
   }
