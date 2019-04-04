@@ -17,28 +17,6 @@ class BuddyBible extends StatelessWidget{
 class Home extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(
-          'Buddy Bible', 
-          style: TextStyle(color: Colors.black),
-        ),
-        bottom: PreferredSize(
-          child: Padding(
-            padding: EdgeInsets.only(bottom: 6),
-            child: Text(
-              'Your daily bible assistant', 
-              style: TextStyle(color: Colors.grey.shade600, fontSize: 16, fontWeight: FontWeight.w300),
-            ),
-          ),
-          preferredSize: null,
-        ),
-        elevation: 0.4,
-        backgroundColor: Colors.white
-      ),
-      backgroundColor: Colors.white,
-      body: BookList()
-    );
+    return BookList();
   }
 }
